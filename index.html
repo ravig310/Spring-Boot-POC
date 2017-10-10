@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+     <meta charset="UTF-8" />
+    <title>json-io</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+    <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+     crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="style.css" />
+    <script 
+   src ="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.2/socket.io.js">
+   </script>
+ <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  </script>
+</head>
+<body>   
+    <div class="container">
+        <div class="row">
+        <div class="col-md-5 col-xs-3">
+        <table class="table table-bordered table-hover">
+        <thead>
+            <td>id</td>
+            <td>name</td>
+            <td>age</td>
+            <td>edit</td>
+        </thead>
+        <tbody  id="tableData">
+            </tbody>
+          </table>
+          <form id="messageForm">
+                <div class="form-group">
+                    <label>Enter Message</label>
+                    <textarea class="form-control" id="message"></textarea>
+                    <br/>
+                    <input type="submit" class="btn btn-primary" value="Send Message"/>
+                 </div>
+            </form>
+    <div class="app"></div>
+
+    </div>
+    </div>
+    </div>
+    <script src ="../script.js"></script>
+</body>
+</html>

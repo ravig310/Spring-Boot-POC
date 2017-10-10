@@ -1,0 +1,21 @@
+{
+  "name": "websocket-code",
+  "version": "1.0.0",
+  "description": "websocket POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket-poc"
+  ],
+  "author": "RaviTeja Gannavarapu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "http-server": "^0.9.0",
+    "jsonfile": "^2.4.0",
+    "node-watch": "^0.5.4",
+    "nodemon": "^1.11.0"
+  }
+}
